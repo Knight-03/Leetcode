@@ -24,7 +24,7 @@ class Solution
     //Function to get the maximum total value in the knapsack.
     double fractionalKnapsack(int W, Item arr[], int n)
     {
-        double profit = 0;
+       double profit = 0;
         vector<pair<double,pair<int,int>>> ans;
         
         for(int i=0; i<n; i++)
